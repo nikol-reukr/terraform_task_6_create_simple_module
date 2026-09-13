@@ -1,5 +1,5 @@
 module "resource_group_storage" {
-  source  = "nikol/resource_group_storage/azurerm"
+  source  = "./modules/resource_group_storage"
   version = "1.0.1"
 
   resource_group_name  = "task6-resources"
